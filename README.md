@@ -7,7 +7,7 @@ is a strong signal of malicious or unauthorised activity.
  
 > Educational, lab-focused material on simulated environments. No real organisational data.
 > A honeypot must be **isolated and contained** so it cannot be used to attack others
-> (see [`legal-and-safety.md`](Legal-and-safety.md)).
+> (see [`legal-and-safety.md`](Legalandsafety.md)).
  
 ## Why honeypots?
 - **Low false positives** — nobody should ever touch a decoy, so a hit is almost always real.
@@ -18,14 +18,14 @@ is a strong signal of malicious or unauthorised activity.
 | File | Topic |
 |---|---|
 | [`taxonomy.md`](Taxonomy.md) | How honeypots are classified (interaction level, purpose, target) + honeynets & honeytokens |
-| [`types/active-directory-honeypots.md`](types/Active directory honeypots.md). | Honey accounts, **honey SPN (Kerberoasting decoy)**, honey admin, decoy objects |
+| [`types/active-directory-honeypots.md`](types/Activedirectoryhoneypots.md). | Honey accounts, **honey SPN (Kerberoasting decoy)**, honey admin, decoy objects |
 | [`types/honeytokens.md`](types/Honeytokens.md) | Canary tokens, honey credentials, honey files, DB honey records |
-| [`types/network-service-honeypots.md`](types/Network-service-honeypots.md) | SSH/HTTP/SMB/RDP/ICS service decoys, honeynets |
-| [`types/web-and-email-honeypots.md`](types/Web-and-email-honeypots.md) | Form honeypots (bot detection), spam traps, web decoys |
+| [`types/network-service-honeypots.md`](types/Networkservicehoneypots.md) | SSH/HTTP/SMB/RDP/ICS service decoys, honeynets |
+| [`types/web-and-email-honeypots.md`](types/Webandemailhoneypots.md) | Form honeypots (bot detection), spam traps, web decoys |
 | [`tools.md`](Tools.md) | Open-source honeypot tools (Cowrie, Dionaea, T-Pot, Conpot, OpenCanary, Canarytokens...) |
-| [`deployment/lab-opencanary.md`](deployment/Lab-opencanary.md) | Deploy a multi-service honeypot (OpenCanary) in a lab |
-| [`deployment/ad-honey-account-and-spn.md`](deployment/Ad-honey-account-and-spn.md) | Create an AD honey account + honey SPN and alert on Event ID 4769 |
-| [`legal-and-safety.md`](Legal-and-safety.md) | Isolation, containment, legal and ethical considerations |
+| [`deployment/lab-opencanary.md`](deployment/Labopencanary.md) | Deploy a multi-service honeypot (OpenCanary) in a lab |
+| [`deployment/ad-honey-account-and-spn.md`](deployment/Adhoneyaccountandspn.md) | Create an AD honey account + honey SPN and alert on Event ID 4769 |
+| [`legal-and-safety.md`](Legalandsafety.md) | Isolation, containment, legal and ethical considerations |
  
 ## How this connects to the rest of my work
 The **honey SPN** here is the detection control referenced in my
