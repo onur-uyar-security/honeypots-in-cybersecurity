@@ -17,15 +17,15 @@ is a strong signal of malicious or unauthorised activity.
 ## Contents
 | File | Topic |
 |---|---|
-| [`taxonomy.md`](taxonomy.md) | How honeypots are classified (interaction level, purpose, target) + honeynets & honeytokens |
+| [`taxonomy.md`](Taxonomy.md) | How honeypots are classified (interaction level, purpose, target) + honeynets & honeytokens |
 | [`types/active-directory-honeypots.md`](types/active-directory-honeypots.md) | Honey accounts, **honey SPN (Kerberoasting decoy)**, honey admin, decoy objects |
 | [`types/honeytokens.md`](types/honeytokens.md) | Canary tokens, honey credentials, honey files, DB honey records |
 | [`types/network-service-honeypots.md`](types/network-service-honeypots.md) | SSH/HTTP/SMB/RDP/ICS service decoys, honeynets |
 | [`types/web-and-email-honeypots.md`](types/web-and-email-honeypots.md) | Form honeypots (bot detection), spam traps, web decoys |
-| [`tools.md`](tools.md) | Open-source honeypot tools (Cowrie, Dionaea, T-Pot, Conpot, OpenCanary, Canarytokens...) |
+| [`tools.md`](Tools.md) | Open-source honeypot tools (Cowrie, Dionaea, T-Pot, Conpot, OpenCanary, Canarytokens...) |
 | [`deployment/lab-opencanary.md`](deployment/lab-opencanary.md) | Deploy a multi-service honeypot (OpenCanary) in a lab |
 | [`deployment/ad-honey-account-and-spn.md`](deployment/ad-honey-account-and-spn.md) | Create an AD honey account + honey SPN and alert on Event ID 4769 |
-| [`legal-and-safety.md`](legal-and-safety.md) | Isolation, containment, legal and ethical considerations |
+| [`legal-and-safety.md`](Legal-and-safety.md) | Isolation, containment, legal and ethical considerations |
  
 ## How this connects to the rest of my work
 The **honey SPN** here is the detection control referenced in my
