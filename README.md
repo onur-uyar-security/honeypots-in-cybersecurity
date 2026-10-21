@@ -18,7 +18,7 @@ is a strong signal of malicious or unauthorised activity.
 | File | Topic |
 |---|---|
 | [`taxonomy.md`](Taxonomy.md) | How honeypots are classified (interaction level, purpose, target) + honeynets & honeytokens |
-| [`types/active-directory-honeypots.md`](types/Active directory honeypots.md) | Honey accounts, **honey SPN (Kerberoasting decoy)**, honey admin, decoy objects |
+| [`types/active-directory-honeypots.md`](types/Active directory honeypots.md). | Honey accounts, **honey SPN (Kerberoasting decoy)**, honey admin, decoy objects |
 | [`types/honeytokens.md`](types/Honeytokens.md) | Canary tokens, honey credentials, honey files, DB honey records |
 | [`types/network-service-honeypots.md`](types/Network-service-honeypots.md) | SSH/HTTP/SMB/RDP/ICS service decoys, honeynets |
 | [`types/web-and-email-honeypots.md`](types/Web-and-email-honeypots.md) | Form honeypots (bot detection), spam traps, web decoys |
