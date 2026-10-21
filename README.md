@@ -29,7 +29,7 @@ is a strong signal of malicious or unauthorised activity.
  
 ## How this connects to the rest of my work
 The **honey SPN** here is the detection control referenced in my
-[`kerberoasting-blue-team`](../../kerberoasting-blue-team) repo, expanded into a full
+[`kerberoasting-blue-team`](https://github.com/onur-uyar-security/kerberoasting-blue-team/tree/main) repo, expanded into a full
 treatment of honeypots across the environment.
  
 ---
